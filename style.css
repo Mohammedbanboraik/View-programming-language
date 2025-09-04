@@ -1,0 +1,96 @@
+body{
+    background-color: #4F4F4F;
+    font-family: "Comic Neue", cursive;
+}
+
+code{
+    font-size: 135% !important ;
+}
+
+a{
+    color: #CCCCFF;
+}
+
+a:hover{
+    color: blue;
+}
+
+.text-light-info{
+    color: #69dbec;
+}
+
+.navbar{
+    background-color: #232930eb !important;
+}
+
+.carousel-inner img{
+    width: 600px;
+    height: 600px;
+}
+
+.carousel-inner h1{
+    text-shadow: 1px 1px #000;
+}
+
+.carousel-inner .carousel-caption{
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+}
+
+.row{
+    background-color: #343a4099;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#tran{
+    transition: 0.7s ease;
+}
+
+
+#tran:hover{
+    transform: scale(1.1);
+    border: 3px solid #fff;
+}
+
+.myicon{
+    height: 30px !important;
+    width: 30px !important;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+
+.fixedimg1{
+    background-image: url(images/back1.jpg);
+}
+
+.navbar-brand , .navbar li{
+    transition: 0.5s ease;
+}
+
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px #fff;
+}
+
+.navbar li:hover{
+    padding-left: 10px ;
+}
+
